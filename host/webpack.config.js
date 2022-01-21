@@ -41,6 +41,12 @@ module.exports = {
 
         // },
 
+        // For hosts (please adjust)
+        remotes: {
+            "login": "http://localhost:4201/loginModuleRemoteEntry.js",
+
+        },
+
         shared: share({
           "@angular/core": { singleton: true, strictVersion: true, requiredVersion: 'auto' }, 
           "@angular/common": { singleton: true, strictVersion: true, requiredVersion: 'auto' }, 
